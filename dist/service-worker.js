@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/vue-sideprojects/precache-manifest.a2fbeb4eb89aed92fe99eb73d512c1c7.js"
+  "/side-projects/precache-manifest.57da7ca1bdafed8472f4eb584eb561b5.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "vue-sideprojects"});
+workbox.core.setCacheNameDetails({prefix: "side-projects"});
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
