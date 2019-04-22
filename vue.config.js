@@ -1,6 +1,6 @@
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/vue-sideprojects/'
+    ? '/vue-sideprojects/dist/'
     : '/',
 
   outputDir: 'dist',
